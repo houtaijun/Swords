@@ -64,5 +64,36 @@ that.event.emit('getOpenGId', openGId);
 ```
 
 - 封装常用的 alert，confirm，loading，log等方法，让页面UI交互统一，开发起来更加简单
+- 引入有赞高颜值的小程序样式库，有很多常用的样式组件可以复用
 - 支持设置是否开启**debug**模式和记录日志
+- 后端的代码和相关的数据表开源，简单部署和修改一些配置后即可使用
 
+###小程序预览
+- 微信授权登录，数据库保存头像和昵称和信息
+
+![登录演示](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/login.gif)
+
+- 选择电影（初始是最近上映的电影）
+
+![选择电影](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/select-movie.gif)
+
+- 转发电影卡片到微信群中
+
+![转发](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/send.jpeg)
+![转发结果](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/send-result.jpeg)
+![预览](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/review.png)
+
+- 评论
+
+![评论](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/to-comment.gif)
+
+###后端代码和数据库表
+链接和对应教程我放在一个微信群里了，加群后看群公告就可以了。
+
+微信群二维码容易过期，我就放个人的二维码吧，加我后我拉你进群。
+
+发送验证的时候请备注**Swords**，不然我可能会当骚扰处理了。
+
+至于打赏的话，有或没有不是特别重要，当然有更好啦，看着给就行~
+
+![二维码](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/qrcode.jpeg)
