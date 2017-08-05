@@ -64,5 +64,11 @@ that.event.emit('getOpenGId', openGId);
 ```
 
 - 封装常用的 alert，confirm，loading，log等方法，让页面UI交互统一，开发起来更加简单
+- 引入有赞高颜值的小程序样式库，有很多常用的样式组件可以复用
 - 支持设置是否开启**debug**模式和记录日志
+- 后端的代码和相关的数据表开源，简单部署和修改一些配置后即可使用
 
+###小程序预览
+- 微信授权登录，数据库保存头像和昵称和信息
+
+![登录演示](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/login.gif)
