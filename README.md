@@ -71,14 +71,14 @@ that.event.emit('getOpenGId', openGId);
 ###小程序预览
 - 微信授权登录，数据库保存头像和昵称和信息
 
-![登录演示](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/login.gif)
+![登录演示](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/login.gif)
 
 - 选择电影（初始是最近上映的电影）
 
-![选择电影](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/select-movie.gif)
+![选择电影](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/select-movie.gif)
 
 - 转发电影卡片到微信群中
 
-![转发](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/send.jpeg)
-![转发结果](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/send-result.jpeg)
-![预览](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/review.png)
+![转发](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/send.jpeg)
+![转发结果](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/send-result.jpeg)
+![预览](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/review.png)
