@@ -84,11 +84,17 @@ that.event.emit('getOpenGId', openGId);
 ![预览](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/review.png)
 
 - 评论
+
 ![评论](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/to-comment.gif)
 
 ###后端代码和数据库表
-链接和对应教程我放在一个微信群（交流方便）里了，微信群二维码容易过期，我就放个人的二维码。
-加我后我拉你进群，不过发送验证的时候请备注**Swords**，不然我可能就当骚扰处理了。
-至于打赏的话，有或没有都无所谓，当然有更好啦，看着给就行~
+链接和对应教程我放在一个微信群里了，加群后看群公告就可以了。
+
+微信群二维码容易过期，我就放个人的二维码吧，加我后我拉你进群。
+
+发送验证的时候请备注**Swords**，不然我可能会当骚扰处理了。
+
+至于打赏的话，有或没有不是特别重要，当然有更好啦，看着给就行~
+
 ![二维码](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/qrcode.jpeg)
 
