@@ -80,10 +80,12 @@ that.event.emit('getOpenGId', openGId);
 - 转发电影卡片到微信群中
 
 ![转发](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/send.jpeg)
+
 ![转发结果](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/send-result.jpeg)
+
 ![预览](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/review.png)
 
-- 评论
+- 写短评
 
 ![评论](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/doc/to-comment.gif)
 
