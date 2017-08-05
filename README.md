@@ -76,3 +76,9 @@ that.event.emit('getOpenGId', openGId);
 - 选择电影（初始是最近上映的电影）
 
 ![选择电影](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/select-movie.gif)
+
+- 转发电影卡片到微信群中
+
+![转发](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/send.jpeg)
+![转发结果](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/send-result.jpeg)
+![预览](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/review.png)
