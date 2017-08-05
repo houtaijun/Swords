@@ -1,0 +1,37 @@
+ <view class="container">
+        <view class="float-up page-style--card logo-style--center cover-image-type--logo gradient--white icon-style--square" style="display: block;">
+        <view class="js-app-content app-content" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+          <view class="canyin-card" style="padding-top: 120px;">
+            <view class="shop-cover" style="height: 150px; background-image: url({{movie.images.large}});"></view>
+            <view class="shop-logo-wrapper">
+              <view class="shop-logo" style="background-image: url({{movie.images.small}});"></view>
+            </view>
+            <view class="shop-name">{{movie.title}}</view>
+            <view class="shop-desc">{{movie.rating.average?("豆瓣评分 "+movie.rating.average):"暂无豆瓣评分"}}</view>
+            <view class="shop-desc">
+            <view class="ask" hidden="{{review}}">
+               <button class="zan-btn zan-btn--primary" open-type="share">转发到微信群问问</button>
+            </view>
+            </view>
+            <view class="plugin-icon__wrapper" hidden="{{!review}}">
+              <view class="weui-cells weui-cells_after-title" hidden="{{isCommented}}">
+                <text bindtap="toAddComment">写短评</text>
+              </view>
+              <view class="tip">{{tip}}</view>
+              <view class="comments" wx:if="{{comments.length > 0}}">
+                  <view class="amount">群短评({{comments.length}})</view>
+                  <view class="comment" wx:for="{{comments}}">
+                    <image class="avatar" src="{{item.avatar}}"></image>
+                    <view class="nickname">{{item.nickname}}</view>
+                    <view class="time">{{item.time}}</view>
+                    <view class="message">{{item.content}}</view>
+                    <view class="line"></view>   
+                  </view>
+              </view>
+            </view>
+          </view>
+          <view class="support-info">
+            <a href="https://cy.youzan.com/">石开提供技术支持</a></view>
+        </view>
+      </view>
+</view>

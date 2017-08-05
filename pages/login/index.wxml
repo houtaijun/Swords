@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{avatar}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{nickname}}</text>
+  </view>
+    <view class="ask">
+     <button class="zan-btn zan-btn--primary {{logining?'zan-btn--loading':''}}" open-type="getUserInfo" bindgetuserinfo="bindLogin">微信一键登录</button>
+    </view>
+</view>

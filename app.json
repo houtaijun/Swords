@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movie/index",
+    "pages/select-movie/index",
+    "pages/login/index",
+    "pages/add-comment/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "刀光见影",
+    "navigationBarTextStyle": "black"
+  }
+}

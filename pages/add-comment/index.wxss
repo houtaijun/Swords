@@ -1,0 +1,22 @@
+/* index.wxss */
+.block{
+  padding: 10px;
+}
+.tip{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color:#666;
+  font-size: 12px;
+  bottom: 40px; 
+}
+textarea{
+  min-height:80px;
+  width: auto;
+  display:block;
+  position:relative;
+  border:1rpx solid #bdbaba;
+  padding:10px;
+  margin-bottom:20px;
+  color:#333;
+}

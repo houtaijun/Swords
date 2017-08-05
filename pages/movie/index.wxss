@@ -1,0 +1,267 @@
+/**index.wxss**/
+
+.amount {
+	color: #666;
+	font-size: 12px;
+}
+page {
+	background-color: #1C1C20;
+}
+.avatar {
+	height: 70rpx;
+	width: 70rpx;
+	float: left;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+.nickname {
+	height: 70rpx;
+	line-height: 70rpx;
+	float: left;
+	width: 80%;
+	text-align: left;
+	color: #333;
+	font-size: 12px;
+}
+.time {
+	width: 80%;
+	text-align: left;
+	margin-bottom: 10rpx;
+	font-size: 25rpx;
+	color: #8e908c;
+	margin-left: 80rpx;
+}
+.message {
+	text-align: left;
+	line-height: 50rpx;
+	margin-left: 80rpx;
+	color: #333;
+	font-size: 12px;
+}
+.line {
+	margin: 20px -5px;
+	border-top: 1rpx solid #e5e5e5;
+}
+.comments {
+	margin-top: 20px;
+}
+.weui-cells_after-title {
+	margin: 10px 0;
+	text-align: right;
+	color: #fc4766;
+}
+.canyin-card {
+	position: relative;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 40px 25px 20px;
+	margin: 0 10px;
+	overflow: hidden;
+	z-index: 5;
+}
+.canyin-card .shop-logo-wrapper {
+	position: relative;
+	z-index: 6;
+	text-align: right;
+	font-size: 0;
+	margin-bottom: 30px;
+}
+.canyin-card .shop-logo {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-size: cover;
+	background-color: #ccc;
+	border: 2px solid #fff;
+	background-position: center;
+	box-sizing: border-box;
+}
+.canyin-card .shop-name {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.4;
+	color: #111;
+	font-family: "PingFang SC", Helvetica,"STHeiti STXihei","Microsoft YaHei",Tohoma,Arial;
+}
+.canyin-card .shop-desc {
+	display: block;
+	margin: 15px 0;
+	color: #666;
+	font-size: 13px;
+	line-height: 1.6;
+}
+@media only screen and (max-width: 320px) {
+	.canyin-card {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+.support-info {
+	padding: 50px 0 20px;
+	text-align: center;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+.support-info a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 12px;
+}
+.float-up {
+	-webkit-animation: floatUp .4s ease;
+	animation: floatUp .4s ease;
+}
+
+@-webkit-keyframes floatUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100px, 0);
+		transform: translate3d(0, 100px, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes floatUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100px, 0);
+		transform: translate3d(0, 100px, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+.logo-style--center .shop-logo-wrapper {
+	text-align: center;
+}
+
+.logo-style--center .shop-logo {
+	width: 80px;
+	height: 80px;
+}
+
+.logo-style--center .canyin-card {
+	padding-top: 60px;
+}
+
+.logo-style--center .shop-logo-wrapper {
+	margin-bottom: 40px;
+}
+
+.logo-style--center .shop-desc, .logo-style--center .shop-name {
+	text-align: center;
+}
+
+.logo-style--left .shop-logo-wrapper {
+	text-align: left;
+}
+
+.logo-style--right .shop-logo-wrapper {
+	text-align: right;
+}
+
+.page-style--full .canyin-card {
+	border-radius: 0;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.page-style--full .extra-plugins__wrapper::after, .page-style--full .extra-plugins__wrapper::before {
+	display: none;
+}
+
+.page-style--full .extra-plugins__wrapper .card-split-line {
+	left: 0;
+	right: 0;
+	background-color: #e5e5e5;
+	background-image: none;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+
+.page-style--full .support-info {
+	position: relative;
+	background-color: #fff;
+	color: #999;
+	opacity: 1;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.page-style--full .support-info::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	width: 200%;
+	height: 200%;
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-webkit-transform-origin: left top;
+	transform-origin: left top;
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+	pointer-events: none;
+	border-top: 1px solid #e5e5e5;
+	left: 25px;
+	right: 25px;
+	width: auto;
+	-webkit-transform: scale(1, 0.5);
+	transform: scale(1, 0.5);
+}
+
+.cover-image-type--none .shop-cover {
+	display: none;
+}
+
+.cover-image-type--logo .canyin-card, .cover-image-type--customize .canyin-card {
+	padding-top: 120px;
+}
+
+.cover-image-type--logo .shop-cover, .cover-image-type--customize .shop-cover {
+	position: absolute;
+	height: 150px;
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.cover-image-type--logo.logo-style--center .shop-logo, .cover-image-type--customize.logo-style--center .shop-logo {
+	width: 60px;
+	height: 60px;
+}
+
+.cover-image-type--logo.logo-style--center .shop-logo-wrapper, .cover-image-type--customize.logo-style--center .shop-logo-wrapper {
+	margin-bottom: 30px;
+}
+
+.gradient--white .shop-cover {
+	padding-bottom: 60px;
+}
+
+.gradient--white .shop-cover::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -1px;
+	top: 0;
+	background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.85) 75%, #FFFFFF 100%);
+}

@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="block">
+    <form bindsubmit="bindFormSubmit">
+      <textarea placeholder-style="color:f4f4f4" auto-height placeholder="我觉得{{currentMovie}}..." name="textarea" maxlength="250" bindinput="inputContent"/>
+      <button class="zan-btn zan-btn--primary" bindtap="submit" disabled="{{content.length==0}}">评论</button>
+    </form>
+  </view>
+  <view class="tip" >
+      其他群成员也能看到你对该电影的评价
+  </view>
+</view>
