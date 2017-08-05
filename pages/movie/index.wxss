@@ -3,6 +3,7 @@
 .amount {
 	color: #666;
 	font-size: 12px;
+  margin-bottom:10px;
 }
 page {
 	background-color: #1C1C20;
@@ -15,8 +16,8 @@ page {
 	border-radius: 50%;
 }
 .nickname {
-	height: 70rpx;
-	line-height: 70rpx;
+	height: 60rpx;
+	line-height: 60rpx;
 	float: left;
 	width: 80%;
 	text-align: left;

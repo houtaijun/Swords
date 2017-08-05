@@ -14,7 +14,7 @@
             </view>
             </view>
             <view class="plugin-icon__wrapper" hidden="{{!review}}">
-              <view class="weui-cells weui-cells_after-title" hidden="{{isCommented}}">
+              <view class="weui-cells weui-cells_after-title" hidden="{{hideAddComment}}">
                 <text bindtap="toAddComment">写短评</text>
               </view>
               <view class="tip">{{tip}}</view>

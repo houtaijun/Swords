@@ -105,6 +105,7 @@ Page({
         var data = res.data.retData.list;
         if (data.length == 0) {
           that.setData({
+            comments: [],
             tip: "",
             hideAddComment: false
           })
@@ -123,10 +124,12 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    this.getMovieComments();
-    setTimeout(function(){
-      wx.stopPullDownRefresh()
-    },3000);
+    app.getOpenGId().then(function (openGId) {
+      that.getMovieComments(openGId);
+    })
+    settimeout(function(){
+      wx.stopPullDownRefresh();
+    })
   },
 
   addMovie: function(){

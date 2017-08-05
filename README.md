@@ -72,3 +72,7 @@ that.event.emit('getOpenGId', openGId);
 - 微信授权登录，数据库保存头像和昵称和信息
 
 ![登录演示](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/login.gif)
+
+- 选择电影（初始是最近上映的电影）
+
+![选择电影](https://raw.githubusercontent.com/houtaijun/Swords/docs/images/docs/select-movie.gif)
